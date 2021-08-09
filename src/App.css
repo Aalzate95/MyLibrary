@@ -1,0 +1,11 @@
+html{
+  height:100vh;
+}
+
+.App {
+  text-align: center;
+}
+
+.container{
+  padding-top:2%;
+}
