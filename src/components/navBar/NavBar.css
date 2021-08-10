@@ -19,3 +19,10 @@
     color:white;
 }
 
+.NavLink:hover svg{
+    color:black;
+}
+
+.activeRoute{
+    color:gray;
+}

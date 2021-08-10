@@ -2,3 +2,44 @@
     display:flex;
     flex-direction:column;
 }
+
+.grid-books{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    text-align:center;
+    justify-content:center;
+    align-items:center;
+
+}
+
+.card-book{
+    height:450px;
+    width:auto;
+    margin: 25px 10% 25px 10%;
+    background-color:gray;
+    display:flex;
+    flex-direction: column;
+    box-shadow: 0 4px 8px 2px black;
+    transition:0.3s;
+    position:relative;
+    border-radius: 5px;
+}
+
+.card-book:hover{
+    cursor:pointer;
+    opacity:0.8;
+}
+h2,p{
+    margin: 5px 0 5px 0;
+}
+.portada{
+    width:auto;
+    margin: 0 5% 0 5%;
+    height:250px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.content-book{
+    padding-bottom:5px;
+}

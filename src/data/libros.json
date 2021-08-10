@@ -1,0 +1,61 @@
+{
+    "prev":"",
+    "next":"",
+    "results":[
+        {
+            "id":"1",
+            "title":"El Alquimista",
+            "isbn":"1523648752",
+            "authors":"Michael Scott",
+            "noPages":835,
+            "editor":"Roca",
+            "rate":4.7,
+            "resume":"Primer libro de las historias del inmortal Nicolas Flamel",
+            "image":"https://images.cdn1.buscalibre.com/fit-in/360x360/ca/f6/caf6b213e98c400dd72c60b83719c71d.jpg"
+        },
+        {
+            "id":"2",
+            "title":"Ingeniería de Software",
+            "isbn":"5236985214",
+            "authors":"Andrés Lopez",
+            "noPages":1245,
+            "editor":"Salle",
+            "rate":4.2,
+            "resume":"Aplicación de las ciencias exactas de la ingeniería para el desarrollo software robusto.",
+            "image":"https://online.anyflip.com/vede/umst/files/mobile/1.jpg?1535915687"
+        },
+        {
+            "id":"3",
+            "title":"Cien años de Soledad",
+            "isbn":"123131313123",
+            "authors":"asdas",
+            "noPages":1323,
+            "editor":"asdad",
+            "rate":3.4,
+            "resume":"adasd ada sdas aasad",
+            "image":"https://imagessl8.casadellibro.com/a/l/t7/08/9788497592208.jpg"
+        },
+        {
+            "id":"4",
+            "title":"Investigación Estádistica",
+            "isbn":"",
+            "authors":"",
+            "noPages":"",
+            "editor":"",
+            "rate":"",
+            "resume":"Aplicación de las ciencias exactas de la ingeniería para el desarrollo software robusto.",
+            "image":"https://online.anyflip.com/vede/umst/files/mobile/1.jpg?1535915687"
+        },
+        {
+            "id":"5",
+            "title":"AWS Cloud Computing",
+            "isbn":"",
+            "authors":"",
+            "noPages":"",
+            "editor":"",
+            "rate":"",
+            "resume":"Aplicación de las ciencias exactas de la ingeniería para el desarrollo software robusto.",
+            "image":"https://online.anyflip.com/vede/umst/files/mobile/1.jpg?1535915687"
+        }
+    ]
+}

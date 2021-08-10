@@ -4,10 +4,11 @@ import { NavLink } from 'react-router-dom'
 import { ImHome, ImBooks, ImLibrary } from "react-icons/im";
 
 const NavBar = () => {
+    const actives = {color:"red"}
     return ( 
         <div className="NavBar">
             <div className="NavBar-links">
-                <NavLink exact={true} to="/" className="NavLink">
+                <NavLink exact={true} to="/" className="NavLink" activeClassName="activeRoute" activeStyle={actives}>
                     <ImHome size={'2em'}/>
                 </NavLink>
 
