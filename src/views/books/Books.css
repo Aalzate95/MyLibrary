@@ -9,11 +9,10 @@
     text-align:center;
     justify-content:center;
     align-items:center;
-
 }
 
 .card-book{
-    height:450px;
+    height:90%;
     width:auto;
     margin: 25px 10% 25px 10%;
     background-color:gray;
@@ -33,7 +32,7 @@ h2,p{
     margin: 5px 0 5px 0;
 }
 .portada{
-    width:auto;
+    width:10em;
     margin: 0 5% 0 5%;
     height:250px;
     background-position: center;
@@ -42,4 +41,16 @@ h2,p{
 
 .content-book{
     padding-bottom:5px;
+}
+
+@media only screen and (max-width: 900px) {
+    .grid-books{
+        grid-template-columns:1fr 1fr;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .grid-books{
+        grid-template-columns:1fr;
+    }
 }

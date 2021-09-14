@@ -10,6 +10,7 @@ import Books from './views/books/Books';
 import MyLibrary from './views/myLibrary/MyLibrary';
 import NotFound from './components/notFound/NotFound'
 import booksData from './data/libros.json'
+import Perfil from './views/perfil/Perfil';
 
 
 
@@ -37,6 +38,10 @@ const Routes = () => {
                     <MyLibrary
                         myBooks={myBooks}
                     />
+                </Route>
+
+                <Route path="/profile">
+                    <Perfil/>
                 </Route>
 
                 <Route component={NotFound}/>
